@@ -1,0 +1,40 @@
+*** Emporium Changelog ***
+
+2011.12.01 - version 1.0.8
+ * css/layout.css removed media query
+ * includes/theme-woocommerce.php enqueued layout.css so that the media query is applied here and <IE9 loads layout.css regardless
+ * styles/plain.css minor fixes
+
+2011.11.29 - version 1.0.7
+ * header.php, includes/theme-woocommerce.php modified mini cart to display correct variation image
+
+2011.11.26 - version 1.0.6
+ * index.php, archive.php, template-blog.php, single.php - fixed aside invalid html
+
+2011.11.22 - version 1.0.5
+ * includes/theme-woocommerce.php made all relevant functions pluggable
+ 
+2011.11.21 - version 1.0.4
+ * style.css styled digital downloads
+ * style.css improved direct checkout method styling
+ * includes/theme-woocommerce.php fixed pagination bug
+ * styles/* fixed IE bug in alt styles
+
+2011.11.13 - version 1.0.3
+ * style.css fixed the white background on nav items (in alt styles) in mobile view
+ * includes/theme-options.php added custom favicon option
+ * includes/theme-options.php added preferred RSS URL option
+ * includes/theme-options.php added post content/excerpt option
+
+2011.11.10 - version 1.0.2
+ * header.php removed style declarations
+ * includes/theme-actions.php redeclared css here to allow for overwriting via child themes
+ * optimised all images
+
+2011.11.07 - version 1.0.1
+ * includes/slider.php fixed anchor in slide content to link to slide url
+ * added red, orange, yellow, green, blue, indigo & violet colour schemes
+ * header.php - changed css/layout.css to use template directory so child themes work
+
+2011.11.03 - version 1.0
+ * First release!
