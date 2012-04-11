@@ -1,0 +1,388 @@
+/*-- [ Imports ] ----------------------------------------------------------------------------------------------*/
+/* Links / Main theme colour */
+/* Body Copy */
+/* Call to action */
+/* General information message box background */
+/* Success message box background */
+/* Error message box background */
+/*
+menu_button_background_color: #434343
+menu_background_color: 
+color9: #f00f00
+*/
+/*-- [ Colour variable resets ] ----------------------------------------------------------------------------------------------*/
+body {
+  color: #000000;
+}
+a,
+a h1,
+a h2,
+a h3,
+a h4,
+a h5,
+a h6 {
+  color: #646464;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:hover h1,
+a:hover h2,
+a:hover h3,
+a:hover h4,
+a:hover h5,
+a:hover h6 {
+  color: #323232;
+  text-decoration: none;
+}
+/*--[ Buttons ]--------------------------------------------------------------------------------*/
+.button, input[type=submit], .button.alt {
+  color: #fff;
+  background: #6e6e6e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6e6e6e), to(#535353));
+  background: -webkit-linear-gradient(#6e6e6e, #535353);
+  background: -moz-linear-gradient(center top, #6e6e6e 0%, #535353 100%);
+  background: -moz-gradient(center top, #6e6e6e 0%, #535353 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6e6e6e,endColorstr=#535353);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6e6e6e, endColorstr=#535353)";
+  border-color: #00112f;
+  box-shadow: 0 0 2px 0 #323232;
+  -webkit-box-shadow: 0 0 2px 0 #323232;
+  -moz-box-shadow: 0 0 2px 0 #323232;
+  -o-box-shadow: 0 0 2px 0 #323232;
+  text-shadow: 0 1px 0 #323232;
+}
+.button:hover, input[type=submit]:hover, .button.alt:hover {
+  background: #6e6e6e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6e6e6e), to(#616161));
+  background: -webkit-linear-gradient(#6e6e6e, #616161);
+  background: -moz-linear-gradient(center top, #6e6e6e 0%, #616161 100%);
+  background: -moz-gradient(center top, #6e6e6e 0%, #616161 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6e6e6e,endColorstr=#616161);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6e6e6e, endColorstr=#616161)";
+  box-shadow: 0 0 2px 0 #002240;
+  -webkit-box-shadow: 0 0 2px 0 #002240;
+  -moz-box-shadow: 0 0 2px 0 #002240;
+  -o-box-shadow: 0 0 2px 0 #002240;
+  color: #00171e;
+  color: #fff;
+}
+.button.alt {
+  background: #d39c33;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d39c33), to(#b17a11));
+  background: -webkit-linear-gradient(#d39c33, #b17a11);
+  background: -moz-linear-gradient(center top, #d39c33 0%, #b17a11 100%);
+  background: -moz-gradient(center top, #d39c33 0%, #b17a11 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d39c33,endColorstr=#b17a11);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d39c33, endColorstr=#b17a11)";
+  border: 1px solid #a06900;
+  color: #3a2600;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.button.alt:hover {
+  background: #e4ad44;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e4ad44), to(#c28b22));
+  background: -webkit-linear-gradient(#e4ad44, #c28b22);
+  background: -moz-linear-gradient(center top, #e4ad44 0%, #c28b22 100%);
+  background: -moz-gradient(center top, #e4ad44 0%, #c28b22 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e4ad44,endColorstr=#c28b22);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e4ad44, endColorstr=#c28b22)";
+  color: #3a2600;
+  color: #fff;
+}
+/*--[ Header ]--------------------------------------------------------------------------------*/
+#header nav.main-navigation {
+  border-color: #323232;
+  background: #434343;
+  filter: none;
+  /* The mini cart */
+
+}
+#header nav.main-navigation a {
+  /* Mainmenu buttons */
+  background: #202020;
+  background: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#434343));
+  background: -webkit-linear-gradient(#202020, #434343);
+  background: -moz-linear-gradient(center top, #202020 0%, #434343 100%);
+  background: -moz-gradient(center top, #202020 0%, #434343 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#202020,endColorstr=#434343);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#202020, endColorstr=#434343)";
+  box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  -o-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  border-color: #323232;
+  color: #fff;
+  text-shadow: 0 1px 0 #323232;
+}
+#header nav.main-navigation a:hover {
+  color: #fff;
+}
+#header nav.main-navigation ul li {
+  border-right-color: #323232;
+  /* Remove some handheld styling */
+
+  /* End removals */
+
+  /* Depth 1 */
+
+}
+#header nav.main-navigation ul li:first-child {
+  border-color: #323232;
+}
+#header nav.main-navigation ul li:nth-child(2n) {
+  border-color: #323232;
+}
+#header nav.main-navigation ul li a:hover {
+  border-top-color: #646464;
+}
+#header nav.main-navigation ul li:hover > a, #header nav.main-navigation ul li.current-menu-item > a {
+  border-top-color: #646464;
+  color: #fff;
+}
+#header nav.main-navigation ul li ul.sub-menu, #header nav.main-navigation ul li ul.children, #header nav.main-navigation ul li ul.cart_list {
+  background-color: #535353;
+  border-color: #323232 !important;
+}
+#header nav.main-navigation ul li ul.sub-menu a, #header nav.main-navigation ul li ul.children a, #header nav.main-navigation ul li ul.cart_list a {
+  background: #f00f00 !important;
+}
+#header nav.main-navigation ul li ul.sub-menu li, #header nav.main-navigation ul li ul.children li, #header nav.main-navigation ul li ul.cart_list li {
+  border-color: #323232;
+}
+#header nav.main-navigation ul li ul.sub-menu li a, #header nav.main-navigation ul li ul.children li a, #header nav.main-navigation ul li ul.cart_list li a {
+  border-color: #323232;
+}
+#header nav.main-navigation ul li ul.sub-menu li ul.sub-menu,
+#header nav.main-navigation ul li ul.children li ul.sub-menu,
+#header nav.main-navigation ul li ul.cart_list li ul.sub-menu,
+#header nav.main-navigation ul li ul.sub-menu li ul.children,
+#header nav.main-navigation ul li ul.children li ul.children,
+#header nav.main-navigation ul li ul.cart_list li ul.children {
+  background-color: #6e6e6e;
+  border-color: #323232;
+}
+#header nav.main-navigation ul li ul.sub-menu li ul.sub-menu li,
+#header nav.main-navigation ul li ul.children li ul.sub-menu li,
+#header nav.main-navigation ul li ul.cart_list li ul.sub-menu li,
+#header nav.main-navigation ul li ul.sub-menu li ul.children li,
+#header nav.main-navigation ul li ul.children li ul.children li,
+#header nav.main-navigation ul li ul.cart_list li ul.children li {
+  border-color: #323232;
+}
+#header nav.main-navigation ul li ul.sub-menu li:first-child ul.sub-menu,
+#header nav.main-navigation ul li ul.children li:first-child ul.sub-menu,
+#header nav.main-navigation ul li ul.cart_list li:first-child ul.sub-menu,
+#header nav.main-navigation ul li ul.sub-menu li:first-child ul.children,
+#header nav.main-navigation ul li ul.children li:first-child ul.children,
+#header nav.main-navigation ul li ul.cart_list li:first-child ul.children {
+  background-color: #535353;
+}
+#header nav.main-navigation ul.mini-cart li {
+  /* The cart contents drop down */
+
+}
+#header nav.main-navigation ul.mini-cart li a {
+  border-color: #323232;
+}
+#header nav.main-navigation ul.mini-cart li:last-child {
+  border: 0px solid #323232;
+}
+#header nav.main-navigation ul.mini-cart li ul.cart_list {
+  background-color: #616161;
+  /* The totals */
+
+  /* The buttons */
+
+}
+#header nav.main-navigation ul.mini-cart li ul.cart_list li {
+  border-top-color: #323232;
+}
+#header nav.main-navigation ul.mini-cart li ul.cart_list li.cart_list_product {
+  background-color: #696969;
+}
+#header nav.main-navigation ul.mini-cart li ul.cart_list li.cart_list_product img {
+  box-shadow: 0 0 2px 0 #002240;
+  -webkit-box-shadow: 0 0 2px 0 #002240;
+  -moz-box-shadow: 0 0 2px 0 #002240;
+  -o-box-shadow: 0 0 2px 0 #002240;
+}
+#header nav.main-navigation ul.mini-cart li ul.cart_list li.total {
+  border-color: #535353;
+  background-color: #616161;
+}
+#header nav.main-navigation ul.mini-cart li ul.cart_list li.buttons .button {
+  color: #003140;
+  background: #6e6e6e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6e6e6e), to(#535353));
+  background: -webkit-linear-gradient(#6e6e6e, #535353);
+  background: -moz-linear-gradient(center top, #6e6e6e 0%, #535353 100%);
+  background: -moz-gradient(center top, #6e6e6e 0%, #535353 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6e6e6e,endColorstr=#535353);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#6e6e6e, endColorstr=#535353)";
+  border: 1px solid #505050;
+  box-shadow: 0 0 2px 0 #323232;
+  -webkit-box-shadow: 0 0 2px 0 #323232;
+  -moz-box-shadow: 0 0 2px 0 #323232;
+  -o-box-shadow: 0 0 2px 0 #323232;
+}
+#header .mini-cart a.cart-parent span {
+  background-image: url(../images/icons/ico-cart-light.png);
+}
+@media only screen and (min-width: 768px) {
+  /*--[ Header ]--------------------------------------------------------------------------------*/
+  #header .top {
+    background-color: #00001e;
+  }
+  #header .description h1, #header .description p {
+    color: #646464;
+    text-shadow: 0 1px 0 #000000;
+  }
+  #header nav.customer-navigation ul li ul.sub-menu, #header nav.customer-navigation ul li ul.children {
+    background-color: #00001e;
+  }
+  #header nav.customer-navigation ul li ul.sub-menu li a, #header nav.customer-navigation ul li ul.children li a {
+    color: #646464;
+  }
+  #header .main-nav {
+    /* Main menu background */
+    border-top-color: #000000;
+    background: #535353;
+    background: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#434343));
+    background: -webkit-linear-gradient(#202020, #434343);
+    background: -moz-linear-gradient(center top, #202020 0%, #434343 100%);
+    background: -moz-gradient(center top, #202020 0%, #434343 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#202020,endColorstr=#434343);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#202020, endColorstr=#434343)";
+/*    border-bottom: 1px solid #323232;*/
+    -webkit-box-shadow: 0 0 0em rgba(0, 0, 0, 0.6), 0 0 0 10px rgba(0, 0, 0, 0.05), inset 0 0 0 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0 0 0em rgba(0, 0, 0, 0.6), 0 0 0 10px rgba(0, 0, 0, 0.05), inset 0 0 0 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0em rgba(0, 0, 0, 0.6), 0 0 0 10px rgba(0, 0, 0, 0.05), inset 0 0 0 0px rgba(255, 255, 255, 0.1);
+  }
+  #header nav.main-navigation {
+    background: none;
+    /* The mini cart */
+  
+  }
+  /* Main menu button borders */
+  #header nav.main-navigation ul li {
+    border-right: 0px solid #606060;
+    /* Remove some handheld styling */
+  
+    /* End removals */
+  
+    /* Depth 1 */
+  
+  }
+  #header nav.main-navigation ul li:first-child {
+    border-left: 0px solid #606060;
+  }
+  #header nav.main-navigation ul li:nth-child(2n) {
+    border-right: 0px solid #606060;
+  }
+  #header nav.main-navigation ul li a {
+/*    box-shadow: inset 0 0 0 1px #707070;
+    -webkit-box-shadow: inset 0 0 0 1px #707070;
+    -moz-box-shadow: inset 0 0 0 1px #707070;
+    -o-box-shadow: inset 0 0 0 1px #707070;*/
+  }
+  #header nav.main-navigation ul li a:hover {
+    border-top: 0.2em solid #454545;
+    color: #fff;
+    box-shadow: inset 0 0 0 1px #707070;
+    -webkit-box-shadow: inset 0 0 0 1px #707070;
+    -moz-box-shadow: inset 0 0 0 1px #707070;
+    -o-box-shadow: inset 0 0 0 1px #707070;
+  }
+  #header nav.main-navigation ul li:hover > a, #header nav.main-navigation ul li.current-menu-item > a {
+    border-top: 0.2em solid #454545;
+    background: #646464;
+  }
+  #header nav.main-navigation ul li ul.sub-menu, #header nav.main-navigation ul li ul.children, #header nav.main-navigation ul li ul.cart_list {
+    background-color: #616161;
+  }
+  #header nav.main-navigation ul li ul.sub-menu li ul.sub-menu,
+  #header nav.main-navigation ul li ul.children li ul.sub-menu,
+  #header nav.main-navigation ul li ul.cart_list li ul.sub-menu,
+  #header nav.main-navigation ul li ul.sub-menu li ul.children,
+  #header nav.main-navigation ul li ul.children li ul.children,
+  #header nav.main-navigation ul li ul.cart_list li ul.children {
+    background-color: #6a6a6a;
+  }
+  #header nav.main-navigation ul li ul.sub-menu li:first-child ul.sub-menu,
+  #header nav.main-navigation ul li ul.children li:first-child ul.sub-menu,
+  #header nav.main-navigation ul li ul.cart_list li:first-child ul.sub-menu,
+  #header nav.main-navigation ul li ul.sub-menu li:first-child ul.children,
+  #header nav.main-navigation ul li ul.children li:first-child ul.children,
+  #header nav.main-navigation ul li ul.cart_list li:first-child ul.children {
+    background-color: #616161;
+  }
+  #header nav.main-navigation ul li ul.sub-menu li a, #header nav.main-navigation ul li ul.children li a, #header nav.main-navigation ul li ul.cart_list li a {
+    background: none !important;
+  }
+  #header nav.main-navigation ul.mini-cart a {
+    color: #fff !important;
+  }
+  #header nav.main-navigation ul.mini-cart li {
+    /* The cart contents drop down */
+  
+  }
+  #header nav.main-navigation ul.mini-cart li:last-child {
+/*    border-left: 1px solid #606060;
+    border-right: 1px solid #606060;*/
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list {
+    background-color: #616161;
+    /* The totals */
+  
+    /* The buttons */
+  
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list li {
+/*    border-top: 1px solid #535353;*/
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list li.cart_list_product {
+    background: #696969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -o-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list li.cart_list_product img {
+    box-shadow: 0 0 2px 0 #002240;
+    -webkit-box-shadow: 0 0 2px 0 #002240;
+    -moz-box-shadow: 0 0 2px 0 #002240;
+    -o-box-shadow: 0 0 2px 0 #002240;
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list li.total {
+/*    border: 1px solid #535353; */
+    background: #616161;
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list li.buttons {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    -o-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+  #header nav.main-navigation ul.mini-cart li ul.cart_list li.buttons .button {
+    color: #003140;
+    background: #44aac8;
+    background: -webkit-gradient(linear, left top, left bottom, from(#44aac8), to(#535353));
+    background: -webkit-linear-gradient(#44aac8, #535353);
+    background: -moz-linear-gradient(center top, #44aac8 0%, #535353 100%);
+    background: -moz-gradient(center top, #44aac8 0%, #535353 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#44aac8,endColorstr=#535353);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#44aac8, endColorstr=#535353)";
+/*    border: 1px solid #002240;*/
+    box-shadow: 0 0 2px 0 #323232;
+    -webkit-box-shadow: 0 0 2px 0 #323232;
+    -moz-box-shadow: 0 0 2px 0 #323232;
+    -o-box-shadow: 0 0 2px 0 #323232;
+    color: #fff;
+    text-shadow: 0 1px 0 #323232;
+  }
+}
+.ie8 #header .main-nav, .ie7 #header .main-nav {
+  background: #535353;
+}
