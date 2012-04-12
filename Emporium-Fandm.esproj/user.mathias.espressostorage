@@ -4,5 +4,17 @@
 <dict>
 	<key>ESProjectShowHiddenFilesKey</key>
 	<false/>
+	<key>com.macrabbit.Espresso.Workspace.Tabs</key>
+	<dict>
+		<key>Tabs</key>
+		<array>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/mathias/Dropbox/dev/Wordpress/Emporium-Fandm/style.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>
